@@ -1,0 +1,1074 @@
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 323 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+4:48:19 AM [vite] page reload src/vite-env.d.ts
+4:48:19 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/modules/users/components/UsersPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+4:48:19 AM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/components/layout/Sidebar.tsx, /src/components/layout/Header.tsx, /src/modules/auth/components/LoginPage.tsx, /src/modules/risk/components/RiskPage.tsx
+4:48:19 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/styles/globals.css, /src/components/layout/Header.tsx
+4:48:19 AM [vite] page reload src/modules/chat/store/chatStore.ts
+4:48:19 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/modules/risk/components/RiskPage.tsx, /src/styles/globals.css
+4:48:19 AM [vite] hmr update /src/styles/globals.css, /src/components/layout/AppLayout.tsx, /src/components/layout/Sidebar.tsx
+4:48:19 AM [vite] hmr update /src/styles/globals.css
+4:48:19 AM [vite] page reload src/types/index.ts
+4:48:19 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+4:48:19 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+4:48:19 AM [vite] hmr update /src/components/layout/Header.tsx
+4:48:19 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+4:48:19 AM [vite] page reload src/constants/index.ts
+4:48:19 AM [vite] page reload src/services/api/anomaly.api.ts
+4:48:19 AM [vite] page reload src/services/api/impact.api.ts
+4:48:19 AM [vite] page reload src/services/api/innovations.api.ts
+4:48:19 AM [vite] page reload src/services/api/dashboard.api.ts
+4:48:19 AM [vite] page reload src/services/api/ingestion.api.ts
+4:48:19 AM [vite] page reload src/services/api/users.api.ts
+4:48:19 AM [vite] page reload src/services/api/auth.api.ts
+4:48:19 AM [vite] page reload src/services/api/modules.api.ts
+4:48:19 AM [vite] page reload src/services/api/chat.api.ts
+4:48:19 AM [vite] page reload src/services/api/risk.api.ts
+4:48:19 AM [vite] page reload src/lib/apiClient.ts
+4:48:19 AM [vite] hmr update /src/routes/index.tsx
+4:48:19 AM [vite] page reload src/main.tsx
+4:48:19 AM [vite] page reload src/utils/index.ts
+4:48:28 AM [vite] page reload src/main.tsx
+4:48:28 AM [vite] page reload src/vite-env.d.ts
+4:48:28 AM [vite] page reload src/constants/index.ts
+4:48:28 AM [vite] page reload src/lib/apiClient.ts
+4:48:28 AM [vite] hmr update /src/routes/index.tsx
+4:48:28 AM [vite] page reload src/store/uiStore.ts
+4:48:28 AM [vite] hmr update /src/styles/globals.css
+4:48:28 AM [vite] page reload src/types/index.ts
+4:48:28 AM [vite] page reload src/utils/index.ts
+4:48:28 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+4:48:28 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+4:48:28 AM [vite] hmr update /src/components/layout/Header.tsx
+4:48:28 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+4:48:28 AM [vite] page reload src/services/api/anomaly.api.ts
+4:48:28 AM [vite] page reload src/services/api/auth.api.ts
+4:48:28 AM [vite] page reload src/services/api/chat.api.ts
+4:48:28 AM [vite] page reload src/services/api/dashboard.api.ts
+4:48:28 AM [vite] page reload src/services/api/impact.api.ts
+4:48:28 AM [vite] page reload src/services/api/ingestion.api.ts
+4:48:28 AM [vite] page reload src/services/api/innovations.api.ts
+4:48:28 AM [vite] page reload src/services/api/modules.api.ts
+4:48:28 AM [vite] page reload src/services/api/risk.api.ts
+4:48:28 AM [vite] page reload src/services/api/users.api.ts
+4:48:28 AM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+4:48:28 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+4:48:28 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+4:48:28 AM [vite] page reload src/modules/auth/store/authStore.ts
+4:48:28 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+4:48:28 AM [vite] page reload src/modules/chat/store/chatStore.ts
+4:48:28 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+4:48:28 AM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+4:48:28 AM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+4:48:28 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+4:48:28 AM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx
+4:48:28 AM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+4:48:28 AM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+4:48:28 AM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 413 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+9:09:04 AM [vite] page reload src/main.tsx
+9:09:04 AM [vite] page reload src/vite-env.d.ts
+9:09:04 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/components/layout/AppLayout.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/components/layout/Header.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/modules/auth/components/LoginPage.tsx, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/ingestion/components/IngestionPage.tsx, /src/modules/risk/components/RiskPage.tsx, /src/modules/users/components/CreateUserPage.tsx, /src/modules/impact/components/ImpactPage.tsx, /src/modules/users/components/UsersPage.tsx, /src/modules/chat/components/ChatPage.tsx, /src/modules/innovations/components/InnovationsPage.tsx, /src/modules/anomaly/components/AnomalyPage.tsx
+9:09:04 AM [vite] hmr update /src/styles/globals.css, /src/modules/auth/components/LoginPage.tsx, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/ingestion/components/IngestionPage.tsx, /src/modules/risk/components/RiskPage.tsx, /src/modules/impact/components/ImpactPage.tsx, /src/modules/users/components/UsersPage.tsx, /src/modules/chat/components/ChatPage.tsx, /src/modules/innovations/components/InnovationsPage.tsx, /src/modules/users/components/CreateUserPage.tsx, /src/modules/anomaly/components/AnomalyPage.tsx
+9:09:04 AM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+9:09:04 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/ingestion/components/IngestionPage.tsx, /src/modules/risk/components/RiskPage.tsx, /src/modules/users/components/CreateUserPage.tsx
+9:09:04 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] page reload src/modules/chat/store/chatStore.ts
+9:09:04 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+9:09:04 AM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/modules/users/components/UsersPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/modules/risk/components/RiskPage.tsx, /src/styles/globals.css
+9:09:04 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css
+9:09:04 AM [vite] page reload src/services/api/anomaly.api.ts
+9:09:04 AM [vite] page reload src/services/api/auth.api.ts
+9:09:04 AM [vite] page reload src/services/api/chat.api.ts
+9:09:04 AM [vite] page reload src/services/api/dashboard.api.ts
+9:09:04 AM [vite] page reload src/services/api/impact.api.ts
+9:09:04 AM [vite] page reload src/services/api/ingestion.api.ts
+9:09:04 AM [vite] page reload src/services/api/innovations.api.ts
+9:09:04 AM [vite] page reload src/services/api/modules.api.ts
+9:09:04 AM [vite] page reload src/services/api/risk.api.ts
+9:09:04 AM [vite] page reload src/services/api/users.api.ts
+9:09:04 AM [vite] page reload src/store/uiStore.ts
+9:09:04 AM [vite] hmr update /src/styles/globals.css
+9:09:04 AM [vite] page reload src/types/index.ts
+9:09:04 AM [vite] page reload src/utils/index.ts
+9:09:04 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:04 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:04 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:05 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:05 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:05 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:05 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:05 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:09 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:12 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:12 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:13 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:13 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:20 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:20 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:31 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:09:31 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+9:12:12 AM [vite] page reload src/main.tsx
+9:12:12 AM [vite] page reload src/vite-env.d.ts
+9:12:12 AM [vite] page reload src/constants/index.ts
+9:12:12 AM [vite] page reload src/lib/apiClient.ts
+9:12:12 AM [vite] hmr update /src/routes/index.tsx
+9:12:12 AM [vite] page reload src/store/uiStore.ts
+9:12:12 AM [vite] hmr update /src/styles/globals.css
+9:12:12 AM [vite] page reload src/utils/index.ts
+9:12:12 AM [vite] page reload src/types/index.ts
+9:12:12 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+9:12:12 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+9:12:12 AM [vite] hmr update /src/components/layout/Header.tsx
+9:12:12 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+9:12:12 AM [vite] page reload src/services/api/anomaly.api.ts
+9:12:12 AM [vite] page reload src/services/api/auth.api.ts
+9:12:12 AM [vite] page reload src/services/api/chat.api.ts
+9:12:12 AM [vite] page reload src/services/api/dashboard.api.ts
+9:12:12 AM [vite] page reload src/services/api/impact.api.ts
+9:12:12 AM [vite] page reload src/services/api/ingestion.api.ts
+9:12:12 AM [vite] page reload src/services/api/innovations.api.ts
+9:12:12 AM [vite] page reload src/services/api/modules.api.ts
+9:12:12 AM [vite] page reload src/services/api/risk.api.ts
+9:12:12 AM [vite] page reload src/services/api/users.api.ts
+9:12:12 AM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+9:12:12 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+9:12:12 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+9:12:12 AM [vite] page reload src/modules/auth/store/authStore.ts
+9:12:12 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+9:12:12 AM [vite] page reload src/modules/chat/store/chatStore.ts
+9:12:12 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+9:12:12 AM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+9:12:12 AM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+9:12:12 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+9:12:12 AM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx
+9:12:12 AM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+9:12:12 AM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+9:12:12 AM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 358 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 335 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+10:33:48 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+10:33:48 AM [vite] hmr update /src/styles/globals.css, /src/components/layout/Header.tsx
+10:33:48 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/components/layout/Sidebar.tsx
+10:33:48 AM [vite] page reload src/modules/chat/store/chatStore.ts
+10:33:48 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+10:33:48 AM [vite] hmr update /src/styles/globals.css, /src/components/layout/AppLayout.tsx, /src/components/layout/Sidebar.tsx
+10:33:48 AM [vite] hmr update /src/styles/globals.css
+10:33:48 AM [vite] page reload src/types/index.ts
+10:33:48 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+10:33:48 AM [vite] hmr update /src/components/layout/Header.tsx
+10:33:48 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+10:33:48 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+10:33:48 AM [vite] page reload src/constants/index.ts
+10:33:48 AM [vite] page reload src/services/api/anomaly.api.ts
+10:33:48 AM [vite] page reload src/services/api/auth.api.ts
+10:33:48 AM [vite] page reload src/services/api/chat.api.ts
+10:33:48 AM [vite] page reload src/services/api/dashboard.api.ts
+10:33:48 AM [vite] page reload src/services/api/impact.api.ts
+10:33:48 AM [vite] page reload src/services/api/ingestion.api.ts
+10:33:48 AM [vite] page reload src/services/api/innovations.api.ts
+10:33:48 AM [vite] page reload src/services/api/modules.api.ts
+10:33:48 AM [vite] page reload src/services/api/risk.api.ts
+10:33:48 AM [vite] page reload src/services/api/users.api.ts
+10:33:48 AM [vite] page reload src/lib/apiClient.ts
+10:33:48 AM [vite] hmr update /src/routes/index.tsx
+10:33:48 AM [vite] page reload src/vite-env.d.ts
+10:33:48 AM [vite] page reload src/main.tsx
+10:33:48 AM [vite] page reload src/utils/index.ts
+10:35:22 AM [vite] page reload src/main.tsx
+10:35:22 AM [vite] page reload src/vite-env.d.ts
+10:35:22 AM [vite] page reload src/constants/index.ts
+10:35:22 AM [vite] page reload src/lib/apiClient.ts
+10:35:22 AM [vite] hmr update /src/routes/index.tsx
+10:35:22 AM [vite] page reload src/store/uiStore.ts
+10:35:22 AM [vite] hmr update /src/styles/globals.css
+10:35:22 AM [vite] page reload src/types/index.ts
+10:35:22 AM [vite] page reload src/utils/index.ts
+10:35:22 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+10:35:22 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+10:35:22 AM [vite] hmr update /src/components/layout/Header.tsx
+10:35:22 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+10:35:22 AM [vite] page reload src/services/api/anomaly.api.ts
+10:35:22 AM [vite] page reload src/services/api/auth.api.ts
+10:35:22 AM [vite] page reload src/services/api/chat.api.ts
+10:35:22 AM [vite] page reload src/services/api/dashboard.api.ts
+10:35:22 AM [vite] page reload src/services/api/impact.api.ts
+10:35:22 AM [vite] page reload src/services/api/ingestion.api.ts
+10:35:22 AM [vite] page reload src/services/api/innovations.api.ts
+10:35:22 AM [vite] page reload src/services/api/modules.api.ts
+10:35:22 AM [vite] page reload src/services/api/risk.api.ts
+10:35:22 AM [vite] page reload src/services/api/users.api.ts
+10:35:22 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+10:35:22 AM [vite] page reload src/modules/auth/store/authStore.ts
+10:35:22 AM [vite] page reload src/modules/chat/store/chatStore.ts
+10:35:22 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+10:35:22 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 332 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+12:55:49 PM [vite] page reload src/vite-env.d.ts
+12:55:49 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+12:55:49 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx, /src/styles/globals.css
+12:55:49 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+12:55:49 PM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/components/layout/Sidebar.tsx, /src/components/layout/Header.tsx, /src/modules/auth/components/LoginPage.tsx, /src/modules/risk/components/RiskPage.tsx
+12:55:49 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+12:55:49 PM [vite] hmr update /src/styles/globals.css, /src/components/layout/Header.tsx
+12:55:49 PM [vite] page reload src/modules/chat/store/chatStore.ts
+12:55:49 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+12:55:49 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx, /src/styles/globals.css
+12:55:49 PM [vite] hmr update /src/styles/globals.css, /src/components/layout/AppLayout.tsx, /src/components/layout/Sidebar.tsx
+12:55:49 PM [vite] hmr update /src/styles/globals.css
+12:55:49 PM [vite] page reload src/types/index.ts
+12:55:49 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+12:55:49 PM [vite] hmr update /src/components/layout/Header.tsx
+12:55:49 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+12:55:49 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+12:55:49 PM [vite] page reload src/constants/index.ts
+12:55:49 PM [vite] page reload src/services/api/anomaly.api.ts
+12:55:49 PM [vite] page reload src/services/api/auth.api.ts
+12:55:49 PM [vite] page reload src/services/api/chat.api.ts
+12:55:49 PM [vite] page reload src/services/api/dashboard.api.ts
+12:55:49 PM [vite] page reload src/services/api/impact.api.ts
+12:55:49 PM [vite] page reload src/services/api/ingestion.api.ts
+12:55:49 PM [vite] page reload src/services/api/innovations.api.ts
+12:55:49 PM [vite] page reload src/services/api/modules.api.ts
+12:55:49 PM [vite] page reload src/services/api/risk.api.ts
+12:55:49 PM [vite] page reload src/services/api/users.api.ts
+12:55:49 PM [vite] page reload src/lib/apiClient.ts
+12:55:49 PM [vite] hmr update /src/routes/index.tsx
+12:55:49 PM [vite] page reload src/main.tsx
+12:55:49 PM [vite] page reload src/utils/index.ts
+1:09:42 PM [vite] page reload src/vite-env.d.ts
+1:09:42 PM [vite] page reload src/main.tsx
+1:09:42 PM [vite] page reload src/constants/index.ts
+1:09:42 PM [vite] page reload src/lib/apiClient.ts
+1:09:42 PM [vite] hmr update /src/routes/index.tsx
+1:09:42 PM [vite] page reload src/store/uiStore.ts
+1:09:42 PM [vite] hmr update /src/styles/globals.css
+1:09:42 PM [vite] page reload src/types/index.ts
+1:09:42 PM [vite] page reload src/utils/index.ts
+1:09:42 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+1:09:42 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+1:09:42 PM [vite] hmr update /src/components/layout/Header.tsx
+1:09:42 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+1:09:42 PM [vite] page reload src/services/api/anomaly.api.ts
+1:09:42 PM [vite] page reload src/services/api/auth.api.ts
+1:09:42 PM [vite] page reload src/services/api/chat.api.ts
+1:09:42 PM [vite] page reload src/services/api/dashboard.api.ts
+1:09:42 PM [vite] page reload src/services/api/impact.api.ts
+1:09:42 PM [vite] page reload src/services/api/ingestion.api.ts
+1:09:42 PM [vite] page reload src/services/api/innovations.api.ts
+1:09:42 PM [vite] page reload src/services/api/modules.api.ts
+1:09:42 PM [vite] page reload src/services/api/risk.api.ts
+1:09:42 PM [vite] page reload src/services/api/users.api.ts
+1:09:42 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+1:09:42 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+1:09:42 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+1:09:42 PM [vite] page reload src/modules/chat/store/chatStore.ts
+1:09:42 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+1:09:42 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+1:09:42 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+1:09:42 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+1:09:42 PM [vite] page reload src/modules/auth/store/authStore.ts
+Killed
+
+> project-management-app@1.0.0 dev
+> vite --host 0.0.0.0 --port 8002 --strictPort
+
+
+  VITE v5.4.21  ready in 329 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+1:59:22 PM [vite] ✨ new dependencies optimized: recharts
+1:59:22 PM [vite] ✨ optimized dependencies changed. reloading
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 344 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+4:25:44 AM [vite] page reload src/main.tsx
+4:25:44 AM [vite] page reload src/vite-env.d.ts
+4:25:44 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx, /src/styles/globals.css
+4:25:44 AM [vite] hmr update /src/components/layout/AppLayout.tsx, /src/styles/globals.css
+4:25:44 AM [vite] hmr update /src/components/layout/Header.tsx, /src/styles/globals.css
+4:25:44 AM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/styles/globals.css
+4:25:44 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/modules/auth/components/LoginPage.tsx, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/chat/components/ChatPage.tsx
+4:25:44 AM [vite] hmr update /src/styles/globals.css, /src/modules/auth/components/LoginPage.tsx, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/chat/components/ChatPage.tsx
+4:25:44 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+4:25:44 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+4:25:44 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/modules/dashboard/components/DashboardPage.tsx
+4:25:44 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+4:25:44 AM [vite] page reload src/modules/chat/store/chatStore.ts
+4:25:44 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+4:25:44 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+4:25:44 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css
+4:25:44 AM [vite] page reload src/services/api/anomaly.api.ts
+4:25:44 AM [vite] page reload src/services/api/auth.api.ts
+4:25:44 AM [vite] page reload src/services/api/chat.api.ts
+4:25:44 AM [vite] page reload src/services/api/dashboard.api.ts
+4:25:44 AM [vite] page reload src/services/api/impact.api.ts
+4:25:44 AM [vite] page reload src/services/api/ingestion.api.ts
+4:25:44 AM [vite] page reload src/services/api/innovations.api.ts
+4:25:44 AM [vite] page reload src/services/api/modules.api.ts
+4:25:44 AM [vite] page reload src/services/api/risk.api.ts
+4:25:44 AM [vite] page reload src/services/api/users.api.ts
+4:25:44 AM [vite] page reload src/store/uiStore.ts
+4:25:44 AM [vite] hmr update /src/styles/globals.css
+4:25:44 AM [vite] page reload src/types/index.ts
+4:25:44 AM [vite] page reload src/utils/index.ts
+4:27:01 AM [vite] page reload src/vite-env.d.ts
+4:27:01 AM [vite] page reload src/main.tsx
+4:27:01 AM [vite] page reload src/store/uiStore.ts
+4:27:01 AM [vite] hmr update /src/styles/globals.css
+4:27:01 AM [vite] page reload src/types/index.ts
+4:27:01 AM [vite] page reload src/constants/index.ts
+4:27:01 AM [vite] page reload src/lib/apiClient.ts
+4:27:01 AM [vite] hmr update /src/routes/index.tsx
+4:27:01 AM [vite] page reload src/utils/index.ts
+4:27:01 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+4:27:01 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+4:27:01 AM [vite] hmr update /src/components/layout/Header.tsx
+4:27:01 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+4:27:02 AM [vite] page reload src/services/api/anomaly.api.ts
+4:27:02 AM [vite] page reload src/services/api/auth.api.ts
+4:27:02 AM [vite] page reload src/services/api/chat.api.ts
+4:27:02 AM [vite] page reload src/services/api/dashboard.api.ts
+4:27:02 AM [vite] page reload src/services/api/impact.api.ts
+4:27:02 AM [vite] page reload src/services/api/ingestion.api.ts
+4:27:02 AM [vite] page reload src/services/api/innovations.api.ts
+4:27:02 AM [vite] page reload src/services/api/modules.api.ts
+4:27:02 AM [vite] page reload src/services/api/risk.api.ts
+4:27:02 AM [vite] page reload src/services/api/users.api.ts
+4:27:02 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+4:27:02 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+4:27:02 AM [vite] page reload src/modules/auth/store/authStore.ts
+4:27:02 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+4:27:02 AM [vite] page reload src/modules/chat/store/chatStore.ts
+4:27:02 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+4:27:02 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+
+> project-management-app@1.0.0 dev
+> vite
+
+Port 8002 is in use, trying another one...
+
+  VITE v5.4.21  ready in 1043 ms
+
+  ➜  Local:   https://localhost:8003/
+  ➜  Network: https://10.0.23.224:8003/
+1:20:07 PM [vite] page reload src/vite-env.d.ts
+1:20:07 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+1:20:07 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/components/layout/Sidebar.tsx, /src/components/layout/Header.tsx, /src/modules/auth/components/LoginPage.tsx, /src/modules/risk/components/RiskPage.tsx
+1:20:07 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/styles/globals.css, /src/components/layout/Header.tsx
+1:20:07 PM [vite] page reload src/modules/chat/store/chatStore.ts
+1:20:07 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx, /src/styles/globals.css
+1:20:07 PM [vite] hmr update /src/styles/globals.css, /src/components/layout/AppLayout.tsx, /src/components/layout/Sidebar.tsx
+1:20:07 PM [vite] hmr update /src/styles/globals.css
+1:20:07 PM [vite] page reload src/types/index.ts
+1:20:07 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+1:20:07 PM [vite] hmr update /src/components/layout/Header.tsx
+1:20:07 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+1:20:07 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+1:20:07 PM [vite] page reload src/constants/index.ts
+1:20:07 PM [vite] page reload src/services/api/anomaly.api.ts
+1:20:07 PM [vite] page reload src/services/api/auth.api.ts
+1:20:07 PM [vite] page reload src/services/api/chat.api.ts
+1:20:07 PM [vite] page reload src/services/api/dashboard.api.ts
+1:20:07 PM [vite] page reload src/services/api/impact.api.ts
+1:20:07 PM [vite] page reload src/services/api/ingestion.api.ts
+1:20:07 PM [vite] page reload src/services/api/innovations.api.ts
+1:20:07 PM [vite] page reload src/services/api/modules.api.ts
+1:20:07 PM [vite] page reload src/services/api/risk.api.ts
+1:20:07 PM [vite] page reload src/services/api/users.api.ts
+1:20:07 PM [vite] page reload src/lib/apiClient.ts
+1:20:07 PM [vite] hmr update /src/routes/index.tsx
+1:20:07 PM [vite] page reload src/utils/index.ts
+1:20:07 PM [vite] page reload src/main.tsx
+1:21:15 PM [vite] page reload src/vite-env.d.ts
+1:21:15 PM [vite] page reload src/main.tsx
+1:21:15 PM [vite] page reload src/constants/index.ts
+1:21:15 PM [vite] page reload src/lib/apiClient.ts
+1:21:15 PM [vite] hmr update /src/routes/index.tsx
+1:21:15 PM [vite] page reload src/store/uiStore.ts
+1:21:15 PM [vite] hmr update /src/styles/globals.css
+1:21:15 PM [vite] page reload src/types/index.ts
+1:21:15 PM [vite] page reload src/utils/index.ts
+1:21:15 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+1:21:15 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+1:21:15 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+1:21:15 PM [vite] page reload src/modules/auth/store/authStore.ts
+1:21:15 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+1:21:15 PM [vite] page reload src/modules/chat/store/chatStore.ts
+1:21:15 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+1:21:15 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+1:21:15 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+1:21:15 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+1:21:15 PM [vite] hmr update /src/components/layout/Header.tsx
+1:21:15 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+1:21:15 PM [vite] page reload src/services/api/anomaly.api.ts
+1:21:15 PM [vite] page reload src/services/api/auth.api.ts
+1:21:15 PM [vite] page reload src/services/api/chat.api.ts
+1:21:15 PM [vite] page reload src/services/api/dashboard.api.ts
+1:21:15 PM [vite] page reload src/services/api/impact.api.ts
+1:21:15 PM [vite] page reload src/services/api/ingestion.api.ts
+1:21:15 PM [vite] page reload src/services/api/innovations.api.ts
+1:21:15 PM [vite] page reload src/services/api/modules.api.ts
+1:21:15 PM [vite] page reload src/services/api/risk.api.ts
+1:21:15 PM [vite] page reload src/services/api/users.api.ts
+1:21:15 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+1:21:15 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+1:21:15 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+1:21:15 PM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx
+1:21:15 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+1:21:15 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 342 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 339 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+3:32:45 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/styles/globals.css, /src/components/layout/Header.tsx
+3:32:45 PM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/components/layout/Sidebar.tsx, /src/modules/ingestion/components/IngestionPage.tsx, /src/modules/users/components/CreateUserPage.tsx, /src/modules/risk/components/RiskPage.tsx
+3:32:45 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] page reload src/modules/chat/store/chatStore.ts
+3:32:45 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+3:32:45 PM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx, /src/styles/globals.css
+3:32:45 PM [vite] hmr update /src/styles/globals.css, /src/components/layout/AppLayout.tsx, /src/components/layout/Sidebar.tsx
+3:32:45 PM [vite] hmr update /src/styles/globals.css
+3:32:45 PM [vite] page reload src/types/index.ts
+3:32:45 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+3:32:45 PM [vite] hmr update /src/components/layout/Header.tsx
+3:32:45 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+3:32:45 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+3:32:45 PM [vite] page reload src/constants/index.ts
+3:32:45 PM [vite] page reload src/services/api/anomaly.api.ts
+3:32:45 PM [vite] page reload src/services/api/auth.api.ts
+3:32:45 PM [vite] page reload src/services/api/chat.api.ts
+3:32:45 PM [vite] page reload src/services/api/dashboard.api.ts
+3:32:45 PM [vite] page reload src/services/api/impact.api.ts
+3:32:45 PM [vite] page reload src/services/api/ingestion.api.ts
+3:32:45 PM [vite] page reload src/services/api/innovations.api.ts
+3:32:45 PM [vite] page reload src/services/api/modules.api.ts
+3:32:45 PM [vite] page reload src/services/api/risk.api.ts
+3:32:45 PM [vite] page reload src/services/api/users.api.ts
+3:32:45 PM [vite] page reload src/lib/apiClient.ts
+3:32:45 PM [vite] hmr update /src/routes/index.tsx
+3:32:45 PM [vite] page reload src/utils/index.ts
+3:32:45 PM [vite] page reload src/vite-env.d.ts
+3:32:45 PM [vite] page reload src/main.tsx
+3:34:35 PM [vite] page reload src/vite-env.d.ts
+3:34:35 PM [vite] page reload src/main.tsx
+3:34:35 PM [vite] page reload src/store/uiStore.ts
+3:34:35 PM [vite] hmr update /src/styles/globals.css
+3:34:35 PM [vite] page reload src/types/index.ts
+3:34:35 PM [vite] page reload src/constants/index.ts
+3:34:35 PM [vite] page reload src/lib/apiClient.ts
+3:34:35 PM [vite] hmr update /src/routes/index.tsx
+3:34:35 PM [vite] page reload src/utils/index.ts
+3:34:35 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+3:34:35 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+3:34:35 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+3:34:35 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+3:34:35 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+3:34:35 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+3:34:35 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+3:34:35 PM [vite] hmr update /src/components/layout/Header.tsx
+3:34:35 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+3:34:35 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+3:34:35 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+3:34:35 PM [vite] page reload src/modules/auth/store/authStore.ts
+3:34:35 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+3:34:35 PM [vite] page reload src/modules/chat/store/chatStore.ts
+3:34:35 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+3:34:35 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+3:34:35 PM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx
+3:34:35 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+3:34:35 PM [vite] page reload src/services/api/anomaly.api.ts
+3:34:35 PM [vite] page reload src/services/api/auth.api.ts
+3:34:35 PM [vite] page reload src/services/api/chat.api.ts
+3:34:35 PM [vite] page reload src/services/api/dashboard.api.ts
+3:34:35 PM [vite] page reload src/services/api/impact.api.ts
+3:34:35 PM [vite] page reload src/services/api/ingestion.api.ts
+3:34:35 PM [vite] page reload src/services/api/innovations.api.ts
+3:34:35 PM [vite] page reload src/services/api/modules.api.ts
+3:34:35 PM [vite] page reload src/services/api/risk.api.ts
+3:34:35 PM [vite] page reload src/services/api/users.api.ts
+3:34:52 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+3:34:52 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+3:34:52 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+3:34:52 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+3:34:52 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+3:34:52 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+3:34:52 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+3:34:52 PM [vite] page reload src/modules/auth/store/authStore.ts
+3:34:52 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+3:34:52 PM [vite] page reload src/modules/chat/store/chatStore.ts
+3:34:52 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+3:34:52 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+3:34:52 PM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx
+3:34:52 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+3:34:52 PM [vite] page reload src/store/uiStore.ts
+3:34:52 PM [vite] hmr update /src/styles/globals.css
+3:34:52 PM [vite] page reload src/types/index.ts
+3:34:52 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+3:34:52 PM [vite] hmr update /src/components/layout/Header.tsx
+3:34:52 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+3:34:52 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+3:34:52 PM [vite] page reload src/constants/index.ts
+3:34:52 PM [vite] page reload src/services/api/anomaly.api.ts
+3:34:52 PM [vite] page reload src/services/api/auth.api.ts
+3:34:52 PM [vite] page reload src/services/api/chat.api.ts
+3:34:52 PM [vite] page reload src/services/api/dashboard.api.ts
+3:34:52 PM [vite] page reload src/services/api/impact.api.ts
+3:34:52 PM [vite] page reload src/services/api/ingestion.api.ts
+3:34:52 PM [vite] page reload src/services/api/innovations.api.ts
+3:34:52 PM [vite] page reload src/services/api/modules.api.ts
+3:34:52 PM [vite] page reload src/services/api/risk.api.ts
+3:34:52 PM [vite] page reload src/services/api/users.api.ts
+3:34:52 PM [vite] page reload src/lib/apiClient.ts
+3:34:52 PM [vite] hmr update /src/routes/index.tsx
+3:34:52 PM [vite] page reload src/vite-env.d.ts
+3:34:52 PM [vite] page reload src/main.tsx
+3:34:52 PM [vite] page reload src/utils/index.ts
+3:34:59 PM [vite] page reload src/vite-env.d.ts
+3:34:59 PM [vite] page reload src/main.tsx
+3:34:59 PM [vite] page reload src/constants/index.ts
+3:34:59 PM [vite] page reload src/lib/apiClient.ts
+3:34:59 PM [vite] hmr update /src/routes/index.tsx
+3:34:59 PM [vite] page reload src/store/uiStore.ts
+3:34:59 PM [vite] hmr update /src/styles/globals.css
+3:34:59 PM [vite] page reload src/types/index.ts
+3:34:59 PM [vite] page reload src/utils/index.ts
+3:34:59 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+3:34:59 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+3:34:59 PM [vite] hmr update /src/components/layout/Header.tsx
+3:34:59 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+3:34:59 PM [vite] page reload src/services/api/anomaly.api.ts
+3:34:59 PM [vite] page reload src/services/api/auth.api.ts
+3:34:59 PM [vite] page reload src/services/api/chat.api.ts
+3:34:59 PM [vite] page reload src/services/api/dashboard.api.ts
+3:34:59 PM [vite] page reload src/services/api/impact.api.ts
+3:34:59 PM [vite] page reload src/services/api/ingestion.api.ts
+3:34:59 PM [vite] page reload src/services/api/innovations.api.ts
+3:34:59 PM [vite] page reload src/services/api/modules.api.ts
+3:34:59 PM [vite] page reload src/services/api/risk.api.ts
+3:34:59 PM [vite] page reload src/services/api/users.api.ts
+3:34:59 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+3:34:59 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+3:34:59 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+3:34:59 PM [vite] page reload src/modules/auth/store/authStore.ts
+3:34:59 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+3:34:59 PM [vite] page reload src/modules/chat/store/chatStore.ts
+3:34:59 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+3:34:59 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+3:34:59 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+3:34:59 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+3:34:59 PM [vite] hmr update /src/modules/innovations/components/InnovationsPage.tsx
+3:34:59 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+3:34:59 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+3:34:59 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 332 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+7:50:18 AM [vite] page reload src/vite-env.d.ts
+7:50:18 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+7:50:18 AM [vite] hmr update /src/modules/users/components/UsersPage.tsx, /src/styles/globals.css
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx
+7:50:18 AM [vite] page reload src/modules/kpis/components/ProjectSelect.tsx
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx
+7:50:18 AM [vite] page reload src/modules/kpis/components/KpiInfoButton.tsx
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx
+7:50:18 AM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx, /src/styles/globals.css
+7:50:18 AM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx, /src/styles/globals.css
+7:50:18 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+7:50:18 AM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx, /src/styles/globals.css
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx, /src/components/layout/Sidebar.tsx, /src/components/layout/Header.tsx, /src/modules/auth/components/LoginPage.tsx
+7:50:18 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/components/layout/Header.tsx
+7:50:18 AM [vite] page reload src/modules/chat/store/chatStore.ts
+7:50:18 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/routes/index.tsx
+7:50:18 AM [vite] hmr update /src/styles/globals.css, /src/components/layout/AppLayout.tsx, /src/components/layout/Sidebar.tsx
+7:50:18 AM [vite] hmr update /src/styles/globals.css
+7:50:18 AM [vite] page reload src/types/index.ts
+7:50:18 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+7:50:18 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+7:50:18 AM [vite] hmr update /src/components/layout/Header.tsx
+7:50:18 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+7:50:18 AM [vite] page reload src/constants/index.ts
+7:50:18 AM [vite] page reload src/services/api/anomaly.api.ts
+7:50:18 AM [vite] page reload src/services/api/impact.api.ts
+7:50:18 AM [vite] page reload src/services/api/innovations.api.ts
+7:50:18 AM [vite] page reload src/services/api/dashboard.api.ts
+7:50:18 AM [vite] page reload src/services/api/kpi.api.ts
+7:50:18 AM [vite] page reload src/services/api/ingestion.api.ts
+7:50:18 AM [vite] page reload src/services/api/users.api.ts
+7:50:18 AM [vite] page reload src/services/api/auth.api.ts
+7:50:18 AM [vite] page reload src/services/api/modules.api.ts
+7:50:18 AM [vite] page reload src/services/api/chat.api.ts
+7:50:18 AM [vite] page reload src/services/api/risk.api.ts
+7:50:18 AM [vite] page reload src/lib/apiClient.ts
+7:50:18 AM [vite] hmr update /src/routes/index.tsx
+7:50:18 AM [vite] page reload src/main.tsx
+7:50:18 AM [vite] page reload src/utils/index.ts
+7:52:24 AM [vite] page reload src/main.tsx
+7:52:24 AM [vite] page reload src/vite-env.d.ts
+7:52:24 AM [vite] page reload src/constants/index.ts
+7:52:24 AM [vite] page reload src/lib/apiClient.ts
+7:52:24 AM [vite] hmr update /src/routes/index.tsx
+7:52:24 AM [vite] page reload src/store/uiStore.ts
+7:52:24 AM [vite] hmr update /src/styles/globals.css
+7:52:24 AM [vite] page reload src/utils/index.ts
+7:52:24 AM [vite] page reload src/types/index.ts
+7:52:24 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+7:52:24 AM [vite] hmr update /src/components/layout/AppLayout.tsx
+7:52:24 AM [vite] hmr update /src/components/layout/Header.tsx
+7:52:24 AM [vite] hmr update /src/components/layout/Sidebar.tsx
+7:52:24 AM [vite] page reload src/services/api/anomaly.api.ts
+7:52:24 AM [vite] page reload src/services/api/auth.api.ts
+7:52:24 AM [vite] page reload src/services/api/chat.api.ts
+7:52:24 AM [vite] page reload src/services/api/dashboard.api.ts
+7:52:24 AM [vite] page reload src/services/api/impact.api.ts
+7:52:24 AM [vite] page reload src/services/api/ingestion.api.ts
+7:52:24 AM [vite] page reload src/services/api/innovations.api.ts
+7:52:24 AM [vite] page reload src/services/api/kpi.api.ts
+7:52:24 AM [vite] page reload src/services/api/modules.api.ts
+7:52:24 AM [vite] page reload src/services/api/risk.api.ts
+7:52:24 AM [vite] page reload src/services/api/users.api.ts
+7:52:24 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+7:52:24 AM [vite] page reload src/modules/innovations/components/InnovationsPage.tsx
+7:52:24 AM [vite] page reload src/modules/kpis/components/DeliveryConfidencePage.tsx
+7:52:24 AM [vite] page reload src/modules/kpis/components/KnowledgeCoveragePage.tsx
+7:52:24 AM [vite] page reload src/modules/kpis/components/KpiInfoButton.tsx
+7:52:24 AM [vite] page reload src/modules/kpis/components/ProjectSelect.tsx
+7:52:24 AM [vite] page reload src/modules/kpis/components/RequirementAmbiguityPage.tsx
+7:52:24 AM [vite] page reload src/modules/kpis/components/RiskAccelerationPage.tsx
+7:52:24 AM [vite] page reload src/modules/risk/components/RiskPage.tsx
+7:52:24 AM [vite] page reload src/modules/users/components/CreateUserPage.tsx
+7:52:24 AM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+7:52:24 AM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+7:52:24 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+7:52:24 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+7:52:24 AM [vite] page reload src/modules/auth/store/authStore.ts
+7:52:24 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+7:52:24 AM [vite] page reload src/modules/chat/store/chatStore.ts
+7:52:24 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+7:52:24 AM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+7:52:24 AM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+Killed
+
+> project-management-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 341 ms
+
+  ➜  Local:   https://localhost:8002/
+  ➜  Network: https://10.0.23.224:8002/
+3:54:22 PM [vite] page reload src/vite-env.d.ts
+3:54:22 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/kpis/components/DeliveryConfidencePage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/kpis/components/KnowledgeCoveragePage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/kpis/components/KpiInfoButton.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/kpis/components/ProjectSelect.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/kpis/components/RequirementAmbiguityPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/kpis/components/RiskAccelerationPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+3:54:22 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/styles/globals.css, /src/components/layout/Header.tsx
+3:54:22 PM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/components/layout/Sidebar.tsx, /src/modules/risk/components/RiskPage.tsx
+3:54:22 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] page reload src/modules/chat/store/chatStore.ts
+3:54:22 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx, /src/styles/globals.css
+3:54:22 PM [vite] page reload src/main.tsx
+3:54:22 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/components/layout/AppLayout.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/components/layout/Header.tsx, /src/styles/globals.css
+3:54:22 PM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/styles/globals.css
+3:54:22 PM [vite] page reload src/constants/index.ts
+3:54:22 PM [vite] page reload src/lib/apiClient.ts
+3:54:22 PM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css
+3:54:22 PM [vite] page reload src/services/api/anomaly.api.ts
+3:54:22 PM [vite] page reload src/services/api/auth.api.ts
+3:54:22 PM [vite] page reload src/services/api/chat.api.ts
+3:54:22 PM [vite] page reload src/services/api/dashboard.api.ts
+3:54:22 PM [vite] page reload src/services/api/impact.api.ts
+3:54:22 PM [vite] page reload src/services/api/ingestion.api.ts
+3:54:22 PM [vite] page reload src/services/api/innovations.api.ts
+3:54:22 PM [vite] page reload src/services/api/kpi.api.ts
+3:54:22 PM [vite] page reload src/services/api/modules.api.ts
+3:54:22 PM [vite] page reload src/services/api/risk.api.ts
+3:54:22 PM [vite] page reload src/services/api/users.api.ts
+3:54:22 PM [vite] page reload src/store/uiStore.ts
+3:54:22 PM [vite] hmr update /src/styles/globals.css
+3:54:22 PM [vite] page reload src/types/index.ts
+3:54:22 PM [vite] page reload src/utils/index.ts
+3:57:15 PM [vite] page reload src/main.tsx
+3:57:15 PM [vite] page reload src/vite-env.d.ts
+3:57:16 PM [vite] page reload src/constants/index.ts
+3:57:16 PM [vite] page reload src/lib/apiClient.ts
+3:57:16 PM [vite] hmr update /src/routes/index.tsx
+3:57:16 PM [vite] page reload src/store/uiStore.ts
+3:57:16 PM [vite] hmr update /src/styles/globals.css
+3:57:16 PM [vite] page reload src/types/index.ts
+3:57:16 PM [vite] page reload src/utils/index.ts
+3:57:16 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+3:57:16 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+3:57:16 PM [vite] page reload src/services/api/anomaly.api.ts
+3:57:16 PM [vite] page reload src/services/api/auth.api.ts
+3:57:16 PM [vite] page reload src/services/api/chat.api.ts
+3:57:16 PM [vite] page reload src/services/api/dashboard.api.ts
+3:57:16 PM [vite] page reload src/services/api/impact.api.ts
+3:57:16 PM [vite] page reload src/services/api/ingestion.api.ts
+3:57:16 PM [vite] page reload src/services/api/innovations.api.ts
+3:57:16 PM [vite] page reload src/services/api/kpi.api.ts
+3:57:16 PM [vite] page reload src/services/api/modules.api.ts
+3:57:16 PM [vite] page reload src/services/api/risk.api.ts
+3:57:16 PM [vite] page reload src/services/api/users.api.ts
+3:57:16 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+3:57:16 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+3:57:16 PM [vite] hmr update /src/components/layout/Header.tsx
+3:57:16 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+3:57:16 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+3:57:16 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+3:57:16 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+3:57:16 PM [vite] page reload src/modules/auth/store/authStore.ts
+3:57:16 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+3:57:16 PM [vite] page reload src/modules/chat/store/chatStore.ts
+3:57:16 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+3:57:16 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+3:57:16 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+3:57:16 PM [vite] hmr update /src/modules/kpis/components/DeliveryConfidencePage.tsx
+3:57:16 PM [vite] hmr update /src/modules/kpis/components/KnowledgeCoveragePage.tsx
+3:57:16 PM [vite] hmr update /src/modules/kpis/components/KpiInfoButton.tsx
+3:57:16 PM [vite] hmr update /src/modules/kpis/components/ProjectSelect.tsx
+3:57:16 PM [vite] hmr update /src/modules/kpis/components/RequirementAmbiguityPage.tsx
+3:57:16 PM [vite] hmr update /src/modules/kpis/components/RiskAccelerationPage.tsx
+3:57:16 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+
+> project-management-app@1.0.0 dev
+> vite
+
+Port 8002 is in use, trying another one...
+Port 8003 is in use, trying another one...
+
+  VITE v5.4.21  ready in 1430 ms
+
+  ➜  Local:   https://localhost:8004/
+  ➜  Network: https://10.0.23.224:8004/
+11:57:20 AM [vite] page reload src/main.tsx
+11:57:20 AM [vite] page reload src/vite-env.d.ts
+11:57:20 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/components/layout/AppLayout.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/components/layout/Header.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/modules/auth/components/LoginPage.tsx, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/ingestion/components/IngestionPage.tsx, /src/modules/users/components/CreateUserPage.tsx, /src/modules/impact/components/ImpactPage.tsx, /src/modules/users/components/UsersPage.tsx, /src/modules/chat/components/ChatPage.tsx
+11:57:20 AM [vite] hmr update /src/styles/globals.css, /src/modules/auth/components/LoginPage.tsx, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/ingestion/components/IngestionPage.tsx, /src/modules/impact/components/ImpactPage.tsx, /src/modules/users/components/UsersPage.tsx, /src/modules/chat/components/ChatPage.tsx, /src/modules/users/components/CreateUserPage.tsx
+11:57:20 AM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/users/components/UsersPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/auth/components/LoginPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+11:57:20 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css, /src/modules/dashboard/components/DashboardPage.tsx, /src/modules/ingestion/components/IngestionPage.tsx
+11:57:20 AM [vite] hmr update /src/modules/chat/components/ChatPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] page reload src/modules/chat/store/chatStore.ts
+11:57:20 AM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+11:57:20 AM [vite] hmr update /src/modules/kpis/components/DeliveryConfidencePage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/kpis/components/KnowledgeCoveragePage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/kpis/components/KpiInfoButton.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/kpis/components/ProjectSelect.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/kpis/components/RequirementAmbiguityPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/kpis/components/RiskAccelerationPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/modules/risk/components/RiskPage.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css
+11:57:20 AM [vite] page reload src/services/api/anomaly.api.ts
+11:57:20 AM [vite] page reload src/services/api/auth.api.ts
+11:57:20 AM [vite] page reload src/services/api/chat.api.ts
+11:57:20 AM [vite] page reload src/services/api/dashboard.api.ts
+11:57:20 AM [vite] page reload src/services/api/impact.api.ts
+11:57:20 AM [vite] page reload src/services/api/ingestion.api.ts
+11:57:20 AM [vite] page reload src/services/api/innovations.api.ts
+11:57:20 AM [vite] page reload src/services/api/kpi.api.ts
+11:57:20 AM [vite] page reload src/services/api/modules.api.ts
+11:57:20 AM [vite] page reload src/services/api/risk.api.ts
+11:57:20 AM [vite] page reload src/services/api/users.api.ts
+11:57:20 AM [vite] page reload src/store/uiStore.ts
+11:57:20 AM [vite] hmr update /src/styles/globals.css
+11:57:20 AM [vite] page reload src/types/index.ts
+11:57:20 AM [vite] page reload src/utils/index.ts
+11:57:20 AM [vite] page reload src/main.tsx
+11:57:20 AM [vite] page reload src/vite-env.d.ts
+11:57:20 AM [vite] hmr update /src/components/common/LoadingSpinner.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/components/layout/AppLayout.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/components/layout/Header.tsx, /src/styles/globals.css
+11:57:20 AM [vite] hmr update /src/components/layout/Sidebar.tsx, /src/styles/globals.css
+11:57:20 AM [vite] page reload src/constants/index.ts
+11:57:20 AM [vite] page reload src/lib/apiClient.ts
+11:57:20 AM [vite] page reload src/modules/auth/hooks/useAuth.ts
+11:57:20 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css
+11:57:20 AM [vite] page reload src/modules/chat/store/chatStore.ts
+11:57:20 AM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+11:57:20 AM [vite] page reload src/modules/kpis/components/DeliveryConfidencePage.tsx
+11:57:20 AM [vite] page reload src/modules/kpis/components/KnowledgeCoveragePage.tsx
+11:57:20 AM [vite] page reload src/modules/kpis/components/KpiInfoButton.tsx
+11:57:20 AM [vite] page reload src/modules/kpis/components/ProjectSelect.tsx
+11:57:20 AM [vite] page reload src/modules/kpis/components/RequirementAmbiguityPage.tsx
+11:57:20 AM [vite] page reload src/modules/kpis/components/RiskAccelerationPage.tsx
+11:57:20 AM [vite] hmr update /src/routes/index.tsx, /src/styles/globals.css
+11:57:20 AM [vite] page reload src/services/api/anomaly.api.ts
+11:57:20 AM [vite] page reload src/services/api/auth.api.ts
+11:57:20 AM [vite] page reload src/services/api/chat.api.ts
+11:57:20 AM [vite] page reload src/services/api/dashboard.api.ts
+11:57:20 AM [vite] page reload src/services/api/impact.api.ts
+11:57:20 AM [vite] page reload src/services/api/ingestion.api.ts
+11:57:20 AM [vite] page reload src/services/api/innovations.api.ts
+11:57:20 AM [vite] page reload src/services/api/kpi.api.ts
+11:57:20 AM [vite] page reload src/services/api/modules.api.ts
+11:57:20 AM [vite] page reload src/services/api/risk.api.ts
+11:57:20 AM [vite] page reload src/services/api/users.api.ts
+11:57:20 AM [vite] page reload src/store/uiStore.ts
+11:57:20 AM [vite] hmr update /src/styles/globals.css
+11:57:20 AM [vite] page reload src/types/index.ts
+11:57:20 AM [vite] page reload src/utils/index.ts
+11:57:21 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:57:21 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:57:22 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:57:22 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:57:22 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:57:22 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:18 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:19 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:22 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:22 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:29 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:29 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:49 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:49 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+11:58:49 AM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+
+> project-management-app@1.0.0 dev
+> vite
+
+Port 8002 is in use, trying another one...
+Port 8003 is in use, trying another one...
+Port 8004 is in use, trying another one...
+Port 8005 is in use, trying another one...
+Port 8006 is in use, trying another one...
+Port 8007 is in use, trying another one...
+Port 8008 is in use, trying another one...
+
+  VITE v5.4.21  ready in 796 ms
+
+  ➜  Local:   https://localhost:8009/
+  ➜  Network: https://10.0.23.224:8009/
+12:03:28 PM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+12:03:28 PM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+12:03:33 PM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+12:03:39 PM [vite] Pre-transform error: Failed to load url /src/main.tsx (resolved id: /home/ubuntu/frontendAI4PM/src/main.tsx). Does the file exist?
+12:04:41 PM [vite] page reload src/main.tsx
+12:04:41 PM [vite] page reload src/vite-env.d.ts
+12:04:41 PM [vite] page reload src/vite-env.d.ts
+12:04:41 PM [vite] page reload src/main.tsx
+12:04:41 PM [vite] page reload src/constants/index.ts
+12:04:41 PM [vite] page reload src/lib/apiClient.ts
+12:04:41 PM [vite] hmr update /src/routes/index.tsx
+12:04:41 PM [vite] page reload src/store/uiStore.ts
+12:04:41 PM [vite] hmr update /src/styles/globals.css
+12:04:41 PM [vite] page reload src/types/index.ts
+12:04:41 PM [vite] page reload src/utils/index.ts
+12:04:41 PM [vite] page reload src/store/uiStore.ts
+12:04:41 PM [vite] hmr update /src/styles/globals.css
+12:04:41 PM [vite] page reload src/types/index.ts
+12:04:41 PM [vite] page reload src/constants/index.ts
+12:04:41 PM [vite] page reload src/lib/apiClient.ts
+12:04:41 PM [vite] hmr update /src/routes/index.tsx
+12:04:41 PM [vite] page reload src/utils/index.ts
+12:04:41 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+12:04:41 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+12:04:41 PM [vite] hmr update /src/components/layout/Header.tsx
+12:04:41 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+12:04:42 PM [vite] page reload src/services/api/anomaly.api.ts
+12:04:42 PM [vite] page reload src/services/api/auth.api.ts
+12:04:42 PM [vite] page reload src/services/api/chat.api.ts
+12:04:42 PM [vite] page reload src/services/api/dashboard.api.ts
+12:04:42 PM [vite] page reload src/services/api/impact.api.ts
+12:04:42 PM [vite] page reload src/services/api/ingestion.api.ts
+12:04:42 PM [vite] page reload src/services/api/innovations.api.ts
+12:04:42 PM [vite] page reload src/services/api/kpi.api.ts
+12:04:42 PM [vite] page reload src/services/api/modules.api.ts
+12:04:42 PM [vite] page reload src/services/api/risk.api.ts
+12:04:42 PM [vite] page reload src/services/api/users.api.ts
+12:04:42 PM [vite] hmr update /src/components/common/LoadingSpinner.tsx
+12:04:42 PM [vite] page reload src/services/api/anomaly.api.ts
+12:04:42 PM [vite] page reload src/services/api/auth.api.ts
+12:04:42 PM [vite] page reload src/services/api/chat.api.ts
+12:04:42 PM [vite] page reload src/services/api/dashboard.api.ts
+12:04:42 PM [vite] page reload src/services/api/impact.api.ts
+12:04:42 PM [vite] page reload src/services/api/ingestion.api.ts
+12:04:42 PM [vite] page reload src/services/api/innovations.api.ts
+12:04:42 PM [vite] page reload src/services/api/kpi.api.ts
+12:04:42 PM [vite] page reload src/services/api/modules.api.ts
+12:04:42 PM [vite] page reload src/services/api/risk.api.ts
+12:04:42 PM [vite] page reload src/services/api/users.api.ts
+12:04:42 PM [vite] hmr update /src/components/layout/AppLayout.tsx
+12:04:42 PM [vite] hmr update /src/components/layout/Header.tsx
+12:04:42 PM [vite] hmr update /src/components/layout/Sidebar.tsx
+12:04:42 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+12:04:42 PM [vite] page reload src/modules/auth/store/authStore.ts
+12:04:42 PM [vite] page reload src/modules/chat/store/chatStore.ts
+12:04:42 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+12:04:42 PM [vite] page reload src/modules/kpis/components/DeliveryConfidencePage.tsx
+12:04:42 PM [vite] page reload src/modules/kpis/components/KnowledgeCoveragePage.tsx
+12:04:42 PM [vite] page reload src/modules/kpis/components/KpiInfoButton.tsx
+12:04:42 PM [vite] page reload src/modules/kpis/components/ProjectSelect.tsx
+12:04:42 PM [vite] page reload src/modules/kpis/components/RequirementAmbiguityPage.tsx
+12:04:42 PM [vite] page reload src/modules/kpis/components/RiskAccelerationPage.tsx
+12:04:42 PM [vite] hmr update /src/modules/impact/components/ImpactPage.tsx
+12:04:42 PM [vite] hmr update /src/modules/ingestion/components/IngestionPage.tsx
+12:04:42 PM [vite] page reload src/modules/ingestion/store/ingestionStore.ts
+12:04:42 PM [vite] hmr update /src/modules/kpis/components/DeliveryConfidencePage.tsx
+12:04:42 PM [vite] hmr update /src/modules/kpis/components/KnowledgeCoveragePage.tsx
+12:04:42 PM [vite] hmr update /src/modules/kpis/components/KpiInfoButton.tsx
+12:04:42 PM [vite] hmr update /src/modules/kpis/components/ProjectSelect.tsx
+12:04:42 PM [vite] hmr update /src/modules/kpis/components/RequirementAmbiguityPage.tsx
+12:04:42 PM [vite] hmr update /src/modules/kpis/components/RiskAccelerationPage.tsx
+12:04:42 PM [vite] hmr update /src/modules/risk/components/RiskPage.tsx
+12:04:42 PM [vite] hmr update /src/modules/users/components/CreateUserPage.tsx
+12:04:42 PM [vite] hmr update /src/modules/users/components/UsersPage.tsx
+12:04:43 PM [vite] hmr update /src/modules/chat/components/ChatPage.tsx
+12:04:43 PM [vite] page reload src/modules/chat/store/chatStore.ts
+12:04:43 PM [vite] hmr update /src/modules/dashboard/components/DashboardPage.tsx
+12:04:43 PM [vite] hmr update /src/modules/anomaly/components/AnomalyPage.tsx
+12:04:43 PM [vite] hmr update /src/modules/auth/components/LoginPage.tsx
+12:04:43 PM [vite] page reload src/modules/auth/hooks/useAuth.ts
+12:04:43 PM [vite] hmr update /src/routes/index.tsx
+The request url "/etc/passwd" is outside of Vite serving allow list.
+
+- /home/ubuntu/frontendAI4PM
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/etc/passwd" is outside of Vite serving allow list.
+The request url "/etc/passwd" is outside of Vite serving allow list.
+
+- /home/ubuntu/frontendAI4PM
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/etc/passwd" is outside of Vite serving allow list.

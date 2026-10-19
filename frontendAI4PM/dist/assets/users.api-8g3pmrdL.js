@@ -1,0 +1,1 @@
+import{a as t}from"./index-B56eSy_U.js";const a={getAll:()=>t.get("/users"),getById:e=>t.get(`/users/${e}`),create:e=>t.post("/users",e),update:(e,s)=>t.patch(`/users/${e}`,s),delete:e=>t.delete(`/users/${e}`),getManagers:e=>t.get("/managers",{params:{role_filter:e}}),getProjects:()=>t.get("/projects"),deleteProject:e=>t.delete(`/projects/${e}`)};export{a as u};
