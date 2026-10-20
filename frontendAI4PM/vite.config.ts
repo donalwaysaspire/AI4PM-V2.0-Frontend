@@ -26,6 +26,6 @@ export default defineConfig({
       cert: fs.readFileSync('/etc/SSL/Aspiresys.pem'),
     },
     open: true,
-    allowedHosts: ['ai4pm.aspiresys.com'],
+    allowedHosts: ['*'],
   },
 })
