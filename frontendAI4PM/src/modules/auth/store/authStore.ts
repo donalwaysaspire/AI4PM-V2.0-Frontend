@@ -36,6 +36,7 @@ export const useAuthStore = create<AuthStore>()(
       setUser: (user) => {
         set((state) => {
           state.user = user
+          state.isAuthenticated = true
         })
       },
 

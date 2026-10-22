@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
-import fs from 'fs'
 export default defineConfig({
   plugins: [react()],
   resolve: {
@@ -21,10 +20,6 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     port: 8002,
-    https: {
-      key: fs.readFileSync('/etc/SSL/Aspiresyskey.pem'),
-      cert: fs.readFileSync('/etc/SSL/Aspiresys.pem'),
-    },
     open: true,
     allowedHosts: ['*'],
   },

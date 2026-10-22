@@ -3,6 +3,7 @@ export const APP_VERSION = '1.0.0'
 
 export const ROUTES = {
   LOGIN:        '/login',
+  AUTH_CALLBACK: '/auth/callback',
   DASHBOARD:    '/dashboard',
   USERS:        '/users',
   USERS_CREATE: '/users/create',

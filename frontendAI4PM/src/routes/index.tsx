@@ -7,6 +7,7 @@ import LoadingSpinner from '@/components/common/LoadingSpinner'
 
 // ─── Lazy Pages ───────────────────────────────────────────────────────────────
 const LoginPage        = lazy(() => import('@/modules/auth/components/LoginPage'))
+const AuthCallbackPage = lazy(() => import('@/modules/auth/components/AuthCallbackPage'))
 const DashboardPage    = lazy(() => import('@/modules/dashboard/components/DashboardPage'))
 const UsersPage        = lazy(() => import('@/modules/users/components/UsersPage'))
 const CreateUserPage   = lazy(() => import('@/modules/users/components/CreateUserPage'))
@@ -43,6 +44,7 @@ export const router = createBrowserRouter([
     element: <PublicRoute />,
     children: [
       { path: ROUTES.LOGIN, element: <SuspenseWrapper><LoginPage /></SuspenseWrapper> },
+      { path: ROUTES.AUTH_CALLBACK, element: <SuspenseWrapper><AuthCallbackPage /></SuspenseWrapper> },
     ],
   },
   {
